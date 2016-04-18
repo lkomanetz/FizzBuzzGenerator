@@ -12,13 +12,7 @@ namespace FizzBuzzLibrary.UnitTests {
 
 		[TestInitialize]
 		public void Initialize() {
-			_generator = new NoridianGenerator();
-			_generator.LowerBounds = 1;
-			_generator.UpperBounds = 10;
-			_generator.DivisibleByList = new Dictionary<int, string>() {
-				{ 2, "Cross" },
-				{ 7, "Shield" }
-			};
+			_generator = new NoridianGenerator(1, 10);
 		}
 		[TestMethod]
 		public void NoridianTest() {

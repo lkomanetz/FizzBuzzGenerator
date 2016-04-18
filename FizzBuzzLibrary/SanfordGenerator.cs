@@ -2,23 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzzLibrary {
-
-	public class NoridianGenerator : IFizzBuzzGenerator {
+	public class SanfordGenerator : IFizzBuzzGenerator {
 		private Dictionary<int, string> _divisibleByList;
 		private int _lowerBounds;
 		private int _upperBounds;
 
-		public NoridianGenerator() {
+		public SanfordGenerator() {
 			_divisibleByList = new Dictionary<int, string>() {
-				{ 2, "Cross" },
-				{ 7, "Shield" }
+				{ 3, "Sanford" },
+				{ 5, "Health" }
 			};
 		}
 
-		public NoridianGenerator(int lowerBounds, int upperBounds)
+		public SanfordGenerator(int lowerBounds, int upperBounds)
 			: this() {
 			_lowerBounds = lowerBounds;
 			_upperBounds = upperBounds;
