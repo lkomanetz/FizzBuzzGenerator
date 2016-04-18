@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE982D00-0559-444A-A4C2-A3431435F7DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D60F10CC-CCE2-4D7A-B1B6-978830C65196}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLibrary", "FizzBuzzLibrary\FizzBuzzLibrary.csproj", "{77960080-0B4F-4DDE-A6F5-9E6FE46646BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLibrary.UnitTests", "FizzBuzzLibrary.UnitTests\FizzBuzzLibrary.UnitTests.csproj", "{7BA1D6AB-C2A0-475E-BA4F-3B2C5F27D85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoridianTest", "NoridianTest\NoridianTest.csproj", "{E82E1C37-D345-4531-8895-30D59CF574CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77960080-0B4F-4DDE-A6F5-9E6FE46646BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77960080-0B4F-4DDE-A6F5-9E6FE46646BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77960080-0B4F-4DDE-A6F5-9E6FE46646BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77960080-0B4F-4DDE-A6F5-9E6FE46646BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA1D6AB-C2A0-475E-BA4F-3B2C5F27D85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA1D6AB-C2A0-475E-BA4F-3B2C5F27D85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA1D6AB-C2A0-475E-BA4F-3B2C5F27D85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA1D6AB-C2A0-475E-BA4F-3B2C5F27D85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82E1C37-D345-4531-8895-30D59CF574CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82E1C37-D345-4531-8895-30D59CF574CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82E1C37-D345-4531-8895-30D59CF574CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82E1C37-D345-4531-8895-30D59CF574CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
