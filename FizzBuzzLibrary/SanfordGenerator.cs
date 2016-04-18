@@ -48,11 +48,11 @@ namespace FizzBuzzLibrary {
 			for (int i = _lowerBounds; i <= _upperBounds; i++) {
 				string divisibleByValue = String.Empty;
 
-				if (IsDivisibleBy(2, i)) {
+				if (IsDivisibleBy(3, i)) {
 					divisibleByValue += _divisibleByList[2];
 				}
 
-				if (IsDivisibleBy(7, i)) {
+				if (IsDivisibleBy(5, i)) {
 					divisibleByValue += _divisibleByList[7];
 				}
 				
